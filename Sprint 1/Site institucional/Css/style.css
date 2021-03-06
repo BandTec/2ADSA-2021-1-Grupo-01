@@ -54,15 +54,15 @@ html body {
 body{
   background-color: var(--color-fuor);
 }
-
-.PrimeiraInfo {
+/* Boas vindas */
+.primeiraInfo {
     width: 100%;
     height: 60%;
     background-size: cover;
   }
-.Apresentacao
+.apresentacao
 {
-  height: 100%;
+  height: 420px;
   float: left;
   font-size: 178%;
   width: 43%;
@@ -76,4 +76,30 @@ body{
   background-image: url(Imagens/monitoramento.png);
   float: right;
   margin-top: 1,5%;
+}
+/* Fim boas vindas */
+
+/*infoEmpresa */ 
+.infoEmpresa {
+width:100%;
+height: 500px;
+} 
+.box{
+  margin-top: 25px;
+  -webkit-box-shadow:  3px 3px 5px 2px rgb(100, 73, 98);  
+  -moz-box-shadow:    3px 3px 5px 2px rgb(100, 73, 98); 
+  box-shadow:        3px 3px 5px 2px rgb(100, 73, 98);
+  text-align: center;
+  float: left;
+  margin-left: 22px;
+  width: 30%;
+  padding: 10px;
+  height: 300px; 
+border-radius: 10px;
+}
+#quemSomos{
+
+  background-image: url(Imagens/confuso1.png);
+    background-repeat: no-repeat;
+    background-size: 119%;
 }
