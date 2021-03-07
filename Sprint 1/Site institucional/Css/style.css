@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
 html body {
   width: auto;
   margin: 0;
   padding: 0;
   font-family: 'Quicksand', sans-serif;
 }
+
 
 :root {
   --color-one: #9d4edd;
@@ -14,54 +16,67 @@ html body {
   --color-five: #fffeff;
 }
 
+
 .container {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: nowrap;
 }
+
 /* Navbar */
 .topnav {
-    background-color: var(--color-one);
-    overflow: hidden;
-  }
+  background-color: var(--color-one);
+  overflow: hidden;
+  width: 100%;
+}
   
-  .topnav a {
-    float: left;
-    display: block;
-    color: var(--color-five);
-    text-align: center;
-    padding: 40px 45px;
-    text-decoration: none;
-    font-size: 17px;
-  }
+
+.topnav a {
+  float: left;
+  display: block;
+  color: var(--color-five);
+  text-align: center;
+  padding: 40px 45px;
+  text-decoration: none;
+  font-size: 17px;
+}
   
-  .topnav a:hover {
-    background-color: var(--color-one);
-    color: var(--color-fuor);
-  }
+
+.topnav a:hover {
+  background-color: var(--color-one);
+  color: var(--color-fuor);
+}
   
-  .topnav a.active {
-    background-color: var(--color-fuor);
-    color: var(--color-five);
-  }
+
+.topnav a.active {
+  background-color: var(--color-fuor);
+  color: var(--color-five);
+}
   
-  .topnav .icon {
-    display: none;
-  }
+
+.topnav .icon {
+  display: none;
+}
 /* Fim nav bar */
+
 
 /*Corpo site */
 body{
   background-color: var(--color-fuor);
 }
+
+
 /* Boas vindas */
 .primeiraInfo {
-    width: 100%;
-    height: 60%;
-    background-size: cover;
-  }
-.apresentacao
-{
+  width: 100%;
+  height: 60%;
+  background-size: cover;
+}
+
+
+.apresentacao{
   height: 420px;
   float: left;
   font-size: 178%;
@@ -70,20 +85,23 @@ body{
   margin-top: 6%;
 }
 
+
 .imgComeco {
   width: 55%;
   height: 55%;
-  background-image: url(Imagens/monitoramento.png);
   float: right;
-  margin-top: 1,5%;
+  
 }
 /* Fim boas vindas */
 
+
 /*infoEmpresa */ 
 .infoEmpresa {
-width:100%;
-height: 500px;
+  width:100%;
+  height: 500px;
 } 
+
+
 .box{
   margin-top: 25px;
   -webkit-box-shadow:  3px 3px 5px 2px rgb(100, 73, 98);  
@@ -95,11 +113,15 @@ height: 500px;
   width: 30%;
   padding: 10px;
   height: 300px; 
-border-radius: 10px;
+  border-radius: 10px;
 }
-#quemSomos{
+.box h3{
+  background-color: #3c096c28;
+}
 
+
+#quemSomos{
   background-image: url(Imagens/confuso1.png);
-    background-repeat: no-repeat;
-    background-size: 119%;
+  background-repeat: no-repeat;
+  background-size: 119%;
 }
