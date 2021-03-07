@@ -125,3 +125,17 @@ body{
   background-repeat: no-repeat;
   background-size: 119%;
 }
+#valores{
+background-image: url(Imagens/valores.png);
+background-repeat: no-repeat;
+background-size: 55%;
+background-position: center;
+margin-left: auto;
+}
+#missao {
+background-image: url(Imagens/missão.png);
+background-repeat: no-repeat;
+background-size: 55%;
+background-position: center;
+margin-left: auto;
+}
