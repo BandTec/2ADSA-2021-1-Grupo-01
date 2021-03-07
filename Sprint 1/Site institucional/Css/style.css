@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=RocknRoll+One&display=swap');
 
 html body {
   width: auto;
   margin: 0;
   padding: 0;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'RocknRoll One', sans-serif;
 }
 
 
@@ -12,7 +12,7 @@ html body {
   --color-one: #9d4edd;
   --color-two: #3c096c;
   --color-three: #b67de4;
-  --color-fuor: #dcd7ee;
+  --color-four: #dcd7ee;
   --color-five: #fffeff;
 }
 
@@ -22,7 +22,7 @@ html body {
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  flex-wrap: nowrap;
+  justify-content: right;
 }
 
 /* Navbar */
@@ -30,41 +30,44 @@ html body {
   background-color: var(--color-one);
   overflow: hidden;
   width: 100%;
+  float: right;
+}
+.topnav img{
+  width: 145px;
 }
   
 
 .topnav a {
-  float: left;
-  display: block;
+  float: right;
+
   color: var(--color-five);
   text-align: center;
   padding: 40px 45px;
   text-decoration: none;
   font-size: 17px;
+  
 }
   
 
 .topnav a:hover {
   background-color: var(--color-one);
-  color: var(--color-fuor);
+  color: var(--color-four);
 }
   
 
 .topnav a.active {
-  background-color: var(--color-fuor);
+  background-color: var(--color-three);
   color: var(--color-five);
 }
   
 
-.topnav .icon {
-  display: none;
-}
+
 /* Fim nav bar */
 
 
 /*Corpo site */
 body{
-  background-color: var(--color-fuor);
+  background-color: var(--color-four);
 }
 
 
@@ -87,10 +90,12 @@ body{
 
 
 .imgComeco {
-  width: 55%;
+  width: 53%;
   height: 55%;
   float: right;
-  
+}
+.imgComeco img{
+  width: 93%;
 }
 /* Fim boas vindas */
 
@@ -99,24 +104,32 @@ body{
 .infoEmpresa {
   width:100%;
   height: 500px;
+  display: flex;
+  justify-content: space-around;
 } 
 
 
 .box{
-  margin-top: 25px;
+  margin: 25px;
   -webkit-box-shadow:  3px 3px 5px 2px rgb(100, 73, 98);  
   -moz-box-shadow:    3px 3px 5px 2px rgb(100, 73, 98); 
   box-shadow:        3px 3px 5px 2px rgb(100, 73, 98);
   text-align: center;
   float: left;
-  margin-left: 22px;
   width: 30%;
   padding: 10px;
   height: 300px; 
   border-radius: 10px;
 }
-.box h3{
-  background-color: #3c096c28;
+.box h1{
+  margin: 0% 1% 0% 2%;
+}
+.box p{
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: #8d20f328;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 
@@ -126,16 +139,16 @@ body{
   background-size: 119%;
 }
 #valores{
-background-image: url(Imagens/valores.png);
+background-image: url(Imagens/valores1.png);
 background-repeat: no-repeat;
 background-size: 55%;
 background-position: center;
 margin-left: auto;
 }
 #missao {
-background-image: url(Imagens/missão.png);
+background-image: url(Imagens/missão1.png);
 background-repeat: no-repeat;
-background-size: 55%;
-background-position: center;
+background-size: 85%;
+
 margin-left: auto;
 }
