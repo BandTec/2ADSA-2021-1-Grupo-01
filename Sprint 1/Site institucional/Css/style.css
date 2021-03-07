@@ -33,7 +33,8 @@ html body {
   float: right;
 }
 .topnav img{
-  width: 145px;
+  width: 115px;
+  height: 100px;
 }
   
 
@@ -101,6 +102,35 @@ body{
 
 
 /*infoEmpresa */ 
+.slide-container {
+  margin: auto;
+  display: flex;
+  justify-content: center
+}
+.slide-container img{
+  padding: 0 0 40px 40px;
+}
+.mySlides {
+  display: none;
+  display: flex;
+  justify-content: center
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
 .infoEmpresa {
   width:100%;
   height: 500px;
@@ -110,45 +140,46 @@ body{
 
 
 .box{
+  
   margin: 25px;
-  -webkit-box-shadow:  3px 3px 5px 2px rgb(100, 73, 98);  
-  -moz-box-shadow:    3px 3px 5px 2px rgb(100, 73, 98); 
-  box-shadow:        3px 3px 5px 2px rgb(100, 73, 98);
+  
   text-align: center;
-  float: left;
-  width: 30%;
+ 
   padding: 10px;
-  height: 300px; 
-  border-radius: 10px;
+  width: 90%;
+  height:90%; 
+ 
 }
 .box h1{
   margin: 0% 1% 0% 2%;
 }
 .box p{
+  height: 78%;
   font-family: 'Noto Sans JP', sans-serif;
   background-color: #8d20f328;
   text-align: left;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
+  padding: 20px;
+  margin: 0;
+  border-radius: 2%;
 }
 
 
-#quemSomos{
+#missao{
   background-image: url(Imagens/confuso1.png);
   background-repeat: no-repeat;
   background-size: 119%;
 }
 #valores{
-background-image: url(Imagens/valores1.png);
-background-repeat: no-repeat;
-background-size: 55%;
-background-position: center;
-margin-left: auto;
+  background-image: url(Imagens/valores1.png);
+  background-repeat: no-repeat;
+  background-size: 55%;
+  background-position: center;
+  
 }
 #missao {
-background-image: url(Imagens/missão1.png);
-background-repeat: no-repeat;
-background-size: 85%;
-
-margin-left: auto;
+  background-image: url(Imagens/missão1.png);
+  background-repeat: no-repeat;
+  background-size: 85%;
 }
