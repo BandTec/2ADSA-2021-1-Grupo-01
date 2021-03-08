@@ -1,13 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=RocknRoll+One&display=swap');
-
-html body {
-  width: auto;
-  margin: 0;
-  padding: 0;
-  font-family: 'RocknRoll One', sans-serif;
-}
-
-
 :root {
   --color-one: #9d4edd;
   --color-two: #3c096c;
@@ -16,170 +7,130 @@ html body {
   --color-five: #fffeff;
 }
 
-
-.container {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  justify-content: right;
+ html body {
+  width: auto;
+  margin: 0;
+  padding: 0;
+  font-family: 'RocknRoll One', sans-serif;
+  background-color: var(--color-five);
 }
+.body{
+  padding: 50px;
+}
+
 
 /* Navbar */
-.topnav {
-  background-color: var(--color-one);
+.header {
   overflow: hidden;
-  width: 100%;
-  float: right;
+  background-color: var(--color-one);
+  padding: 20px;
 }
-.topnav img{
-  width: 115px;
-  height: 100px;
-}
-  
 
-.topnav a {
-  float: right;
-
+/* Style the header links */
+.header a {
+  float: left;
   color: var(--color-five);
   text-align: center;
-  padding: 40px 45px;
+  padding: 12px;
   text-decoration: none;
-  font-size: 17px;
-  
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
 }
-  
 
-.topnav a:hover {
-  background-color: var(--color-one);
-  color: var(--color-four);
+
+.header a:hover {
+  background-color: var(--color-four);
+  color: black;
 }
-  
 
-.topnav a.active {
-  background-color: var(--color-three);
-  color: var(--color-five);
+
+.header a.active {
+  background-color: #ff6600;
+  color: white;
 }
-  
 
+/* Float the link section to the right */
+.header-right {
+  float: right;
+  padding: 0;
+  height: 100%;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .header a {
+    float: none;
+    display: block;
+    text-align: center;
+    align-items: center;
+  }
+  .header-right {
+    float: none;
+  }
+}
+.left-header{
+  
+  width: 56px;
+}
 
 /* Fim nav bar */
 
+/*Introdução*/
+.introducao{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.introducao p{
+  color: #ff6600;
+}
+.introducaoTitulo{
+  font-size: 20px;
+}
+.introducaoFoto img{
+  width: 80%;
+}
+
+/*Fim Introdução*/
 
 /*Corpo site */
-body{
-  background-color: var(--color-four);
+.contexto{
+  border-radius: 2%;
+  padding: 50px;
+  background-color: var(--color-three);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-
-/* Boas vindas */
-.primeiraInfo {
-  width: 100%;
-  height: 60%;
-  background-size: cover;
+.contextoTitulo{
+  background-color: var(--color-two);
+  padding: 5px;
 }
-
-
-.apresentacao{
-  height: 420px;
-  float: left;
-  font-size: 178%;
-  width: 43%;
+.contextoTitulo h1{
+  margin: 0;
+}
+.contextoTitulo span{
+  color: #ff6600;
+}
+.contextoFoto{
   text-align: center;
-  margin-top: 6%;
+  width: 100%;
+  align-items: center;
 }
-
-
-.imgComeco {
-  width: 53%;
-  height: 55%;
-  float: right;
-}
-.imgComeco img{
-  width: 93%;
-}
-/* Fim boas vindas */
-
-
-/*infoEmpresa */ 
-.slide-container {
-  margin: auto;
-  display: flex;
-  justify-content: center
-}
-.slide-container img{
-  padding: 0 0 40px 40px;
-}
-.mySlides {
-  display: none;
-  display: flex;
-  justify-content: center
-}
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-.infoEmpresa {
-  width:100%;
-  height: 500px;
-  display: flex;
-  justify-content: space-around;
-} 
 
 
 .box{
-  
-  margin: 25px;
-  
-  text-align: center;
- 
-  padding: 10px;
-  width: 90%;
-  height:90%; 
- 
+  display: flex;
+
 }
-.box h1{
-  margin: 0% 1% 0% 2%;
-}
-.box p{
-  height: 78%;
-  font-family: 'Noto Sans JP', sans-serif;
-  background-color: #8d20f328;
-  text-align: left;
-  font-size: 25px;
-  font-weight: bold;
-  padding: 20px;
-  margin: 0;
-  border-radius: 2%;
-}
+/*Fim do corpo*/
 
 
-#missao{
-  background-image: url(Imagens/confuso1.png);
-  background-repeat: no-repeat;
-  background-size: 119%;
-}
-#valores{
-  background-image: url(Imagens/valores1.png);
-  background-repeat: no-repeat;
-  background-size: 55%;
-  background-position: center;
-  
-}
-#missao {
-  background-image: url(Imagens/missão1.png);
-  background-repeat: no-repeat;
-  background-size: 85%;
-}
+/* Boas vindas */

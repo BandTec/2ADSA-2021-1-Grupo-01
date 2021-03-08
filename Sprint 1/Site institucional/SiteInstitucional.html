@@ -7,100 +7,98 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prepta</title>
+    <title>Document</title>
 </head>
 
 <body>
 <!-- NavBar -->
-    <div class="container">
-        
-        <div class="topnav" id="myTopnav">
-            <img src="css/Imagens/logo.png" alt="">
-            <a href="sobre.html">Sobre</a>
+<header class="header">
+    
+        <img src="../Site institucional/Css/Imagens/logo.png" class="left-header" alt="">
+    
+        <section class="header-right">
+            <a class="active" href="#home">Home</a>
             <a href="contato.html">Contato</a>
-            <a href="#home" class="active">Home</a>
-            </a>
-        </div>
-    </div>
+            <a href="sobre.html">Sobre</a>
+        </section>
+</header>
     <!-- "Boas Vindas" -->
-    <div class="container">
-        <div class="primeiraInfo">
-            <div class="apresentacao">
+    <div class="body">
+        <div class="introducao">
+            <section class="introducaoTitulo">
                 <h1>
-                Sejam bem-vindos, somos a Prepta Monitoring
+                Sejam bem-vindos a <p>Prepta Monitoring</p>
                 </h1>
-            </div>
-            <div class="imgComeco">
-                <img src="css/Imagens/monitoramento.png" >
-            </div>
+            </section>
+            <section class="introducaoFoto">
+                <img src="../Site institucional/Css/Imagens/pessoasIndex.png" alt="">
+            </section>
+           
         </div>
-    </div>
+        <div class="contexto">
+            <section class="contextoTitulo">
+                <h1>
+                    <span>Prepta Monitoring</span>... titulo generico pipipipupupu
+                </h1>
+            </section>
+            <section class="contextoFoto">
+                <img src="../Site institucional/Css/Imagens/computadores.png" alt="">
+            </section>
+            <section class="contextoTexto">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, laudantium dolorum perspiciatis hic eum doloribus fuga dignissimos veniam sunt possimus praesentium vitae? Cumque impedit accusantium nisi, animi nulla facere. Accusantium.
+                </p>
+            </section>
+            </div>
 
-    <div class="container">
-        <div class="infoEmpresa">
-            <div class="slide-container">
-                   <img src="css/Imagens/pessoasIndex.png" alt="">
-                <!-- Full-width images with number and caption text -->
-                <div class="mySlides fade">
-                    <div class="box" id="missao"> 
+    
+                <div class="box">
+                    <section class="box-missao"> 
                         <h1>Missão</h1>
                         <p>
                             Desenvolver, produzir e comercializar serviços que as pessoas 
                             tenham orgulho daquilo que estão vendo, principalmente para a sua empresa,
-                            nossos serviços de monitoramento será um dos melhores.            
+                            nossos serviços de monitoramento será um dos melhores.                   
                         </p>
-                    </div>
-                </div>
+                    </section>
+                
               
-                <div class="mySlides fade">
-                    <div class="box" id="valores">
+                
+                    <section class="box-valores">
                         <h1>Visão</h1>
                         <p>
-                            Nossa missão é alcançar e ultrapassar barreiras em empresas que enfrentam
-                            muitos problemas de monitoramento, e implementar nossos serviços em varios segmentos,
-                            não só na área de contact center.                  
+                            Nossa missão é alcançar e ultrapassar barreiras em empresas que enfrentam muitos problemas de monitoramento, 
+                            e implementar nossos serviços em varios segmentos, 
+                            não só na área de contact center.                    
                         </p>    
-                    </div>
-                </div>
+                    </section>
+                
               
-                <div class="mySlides fade">
-                    <div class="box" id="missao"> 
+                
+                    <section class="box-missao"> 
                         <h1>Valores</h1>
                         <p>
-                        °   Criatividade <br>
-                        °   Confiança <br>
-                        °   Resultados<br>
-                        °   Ética e transparência<br>
-                        °   Respeito    <br>        
+                            °   Criatividade<br>
+                            °   Confiança <br>
+                            °   Resultados<br>
+                            °   Ética e transparência<br>
+                            °   Respeito<br>                 
                         </p>   
         
-                    </div>
-              </div>
-
+                    </section>
+              
+                </div>
             
 
 
             
-
+</div>
 
             
-        </div>
+        
 </body>
 
 </html>
 <script>
-    var slideIndex = 0;
-showSlides();
 
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 7000); // Change image every 2 seconds
-}
 </script>
