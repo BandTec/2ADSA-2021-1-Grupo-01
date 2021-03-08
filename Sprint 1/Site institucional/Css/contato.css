@@ -71,12 +71,7 @@ html body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url(Imagens/Capturar.PNG);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-    background-position-y: 90%;
-
+    background-color: var(--color-four);
 }
 .contact .content {
     text-align: center;
