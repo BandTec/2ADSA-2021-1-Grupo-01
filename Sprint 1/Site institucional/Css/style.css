@@ -134,3 +134,38 @@
 
 
 /* Boas vindas */
+
+footer h4 {
+  color: midnightblue;
+  text-align: center;
+  
+}
+
+footer {
+  height: 100px;
+  background-color: #9d4edd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: orange 3px solid;
+  border-top: orange 2px solid;
+}
+
+.icones{
+  margin-left: 223px;
+}
+
+.icones img {
+  width: 50px;
+  padding: 16px;
+  cursor: pointer;
+  margin: auto;
+  margin-left: 58px;
+  margin-bottom: 0;
+}
+
+h5{
+  margin-bottom: -8px;
+  font-size: unset;
+  margin-left: 0px;
+}
