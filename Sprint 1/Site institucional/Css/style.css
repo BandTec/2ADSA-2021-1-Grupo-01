@@ -136,7 +136,7 @@
 /* Boas vindas */
 
 footer h4 {
-  color: midnightblue;
+  color: white;
   text-align: center;
   
 }
@@ -147,8 +147,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom: orange 3px solid;
-  border-top: orange 2px solid;
+  border-bottom: #ff6600 3px solid;
+  border-top: #ff6600 2px solid;
 }
 
 .icones{
@@ -162,6 +162,10 @@ footer {
   margin: auto;
   margin-left: 58px;
   margin-bottom: 0;
+}
+
+footer h4{
+  color: white;
 }
 
 h5{
