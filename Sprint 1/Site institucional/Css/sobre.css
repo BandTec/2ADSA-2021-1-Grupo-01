@@ -79,9 +79,7 @@
   width: 78px;
 }
 /* Fim nav bar */
-body{
-overflow: hidden;
-}
+
 .sobreNosImg {
     padding:5px;
     background-image: url(Imagens/fundoSobre.jpg);
