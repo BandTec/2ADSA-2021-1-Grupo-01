@@ -23,7 +23,7 @@
 .header {
   overflow: hidden;
   background-color: var(--color-one);
-  padding: 28px;
+  padding: 20px;
 }
 
 /* Style the header links */
@@ -31,9 +31,9 @@
   float: left;
     color: var(--color-five);
     text-align: center;
-    padding: 17px;
+    padding: 12px;
     text-decoration: none;
-    font-size: 26px;
+    font-size: 17px;
     line-height: 25px;
     border-radius: 4px;
 }
@@ -76,8 +76,9 @@
 }
 .left-header{
   
-  width: 78px;
+  width: 56px;
 }
+
 /* Fim nav bar */
 
 .sobreNosImg {
@@ -93,14 +94,14 @@
 .sobreNosTitulo{
     
     text-align: center;
-    font-size: 50px;
+    font-size: 35px;
 }
 
 .sobreNosTxt{
     text-align: left;
     width: 100%;
     height: auto;
-    font-size: 35px ;
+    font-size: 20px ;
 }
 
 
@@ -111,6 +112,7 @@ footer h4 {
 }
 
 footer {
+  margin-top: 0px;
   height: 100px;
   background-color: #9d4edd;
   display: flex;
