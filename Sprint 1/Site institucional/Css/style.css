@@ -102,6 +102,7 @@
 
 /*Corpo site */
 .contexto{
+  margin-top: 1%;
   border-radius: 2%;
   padding: 50px;
   background-color: var(--color-three);
@@ -126,14 +127,31 @@
 }
 
 
-.box{
+.box{  
+ 
   display: flex;
-
+  justify-content: space-around;
 }
+.box-missao{
+  text-align: center;
+  padding: 0 2% 0 5%;
+  width: 33%; 
+}
+.box-valores{
+  text-align: center;
+  padding: 0 2% 0 2% ;
+  width: 33%;
+}
+.box-visao{
+  text-align: center;
+  padding: 0 2% 0 2% ;
+  width: 33%;
+}
+
 /*Fim do corpo*/
 
 
-/* Boas vindas */
+
 
 footer h4 {
   color: white;
@@ -172,4 +190,25 @@ h5{
   margin-bottom: -8px;
   font-size: unset;
   margin-left: 0px;
+}
+@media screen and (max-width: 500px) {
+  .box{
+    font-size: 50%;
+  }
+  .contexto{
+    font-size: 50%;
+  }
+  footer{
+   
+    font-size: 50%;
+    
+  }
+  .icones{
+    margin: 0;
+    display: flex;
+  }
+  .icones img{
+    width: 40%;
+    margin: 0;
+  }
 }
